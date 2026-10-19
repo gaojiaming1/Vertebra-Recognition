@@ -1,0 +1,20 @@
+# ============================================================
+# AlloVert-YOLOv5 · 根依赖（生长预测 AlloVert / S3-CMR 用）
+# 检测流水线 detection/ 的依赖见 detection/requirements.txt
+# ============================================================
+
+# 数据处理
+pandas>=1.3.0
+numpy>=1.19.0
+
+# 机器学习 / 集成
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+
+# 可视化
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# 深度学习（AlloVert 中的 RNN/GRU/CNN/DNN/FT/TLNN 需要 torch）
+torch>=1.10.0
+torchvision>=0.11.0

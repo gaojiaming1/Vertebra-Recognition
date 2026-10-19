@@ -1,0 +1,50 @@
+# ===================== 模型权重 / 大文件 =====================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+
+# ===================== Python 缓存 =====================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+installer/
+*.spec
+*.bat
+*.exe
+
+# ===================== 打包/构建产物 =====================
+warn-*.txt
+xref-*.html
+*.toc
+*.pkg
+verify_log.txt
+build_log.txt
+version_info.txt
+runtime_hook.py
+simulate_frozen_env.py
+_analysis/
+
+# ===================== 环境 / IDE =====================
+venv/
+env/
+.venv/
+.idea/
+.vscode/
+*.log
+
+# ===================== 数据与输出 =====================
+datasets/
+output/
+outputs/
+# 保留小的示例数据（allovert/data/*.xlsx、sample_data 单图），仅忽略原始大图
+*.zip
+raw_CT/
+
+# ===================== 系统 =====================
+.DS_Store
+Thumbs.db

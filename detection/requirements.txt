@@ -1,0 +1,19 @@
+# ============ UNet → YOLOv5 推理流水线依赖 ============
+# 已训练好的两个模型：
+#   - UNet:    D:\prcharm project\UNet_Demo\UNet_Demo\logs\best_epoch_weights.pth
+#   - YOLOv5:  D:\prcharm project\yugu-yolov5-master\yolov5-master\yolov5-master\runs\train\exp*\weights\best.pt
+#
+# 运行 python main.py 即可启动 GUI。
+#
+# ---- 核心依赖 ----
+torch>=1.10.0
+torchvision>=0.11.0
+opencv-python>=4.5.0
+numpy>=1.19.0
+Pillow>=9.0.0
+
+# YOLOv5 通过 ultralytics 包加载
+ultralytics>=8.0.0
+
+# GUI
+PyQt5>=5.15.0
