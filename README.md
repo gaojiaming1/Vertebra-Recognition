@@ -18,6 +18,15 @@ The repository has three self-contained parts:
 
 ---
 
+## Quick start
+
+```bash
+git clone https://github.com/gaojiaming1/Vertebra-Recognition.git
+cd Vertebra-Recognition
+```
+
+Then follow the per-module instructions below.
+
 ## 1. Vertebra detection (`detection/`)
 
 A PyQt5 application that chains two trained models:
